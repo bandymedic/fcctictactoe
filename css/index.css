@@ -1,0 +1,79 @@
+body {
+    background: no-repeat center center fixed;
+    background: url("https://st2.depositphotos.com/2066835/8826/v/950/depositphotos_88263406-stock-illustration-hand-drawn-tic-tac-toe.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gameboard {
+    width: 372px;
+    height: 372px;
+    margin: auto;
+    
+}
+
+.square {
+    float: left;
+    background: rgba(255,255,255, 0.9);
+    width: 122px;
+    height: 122px;
+    border: 1.5px solid black;
+    -moz-box-shadow: 8px 8px 15px #000;
+    -webkit-box-shadow: 8px 8px 15px #000;
+    box-shadow: 8px 8px 15px #000;
+    cursor: pointer;
+    text-align: center;
+    font-size: 100px;
+}
+
+.ex {
+    background-color: white;
+}
+
+.oh {
+    background-color: white;
+}
+
+.spacer1 {
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 60px;
+    width: 80%;
+    margin: auto;
+    -moz-box-shadow: 8px 8px 15px #000;
+    -webkit-box-shadow: 8px 8px 15px #000;
+    box-shadow: 8px 8px 15px #000;
+}
+
+.spacer {
+    padding: 1%;
+}
+
+h1 {
+    
+}
+
+#win {
+    background-color: green;
+    width: 55%;
+    -moz-box-shadow: 8px 8px 15px #000;
+    -webkit-box-shadow: 8px 8px 15px #000;
+    box-shadow: 8px 8px 15px #000;
+}
+
+#lose {
+    background-color: red;
+    width: 55%;
+    -moz-box-shadow: 8px 8px 15px #000;
+    -webkit-box-shadow: 8px 8px 15px #000;
+    box-shadow: 8px 8px 15px #000;
+}
+
+.btn {
+    margin: auto;
+    -moz-box-shadow: 8px 8px 15px #000;
+    -webkit-box-shadow: 8px 8px 15px #000;
+    box-shadow: 8px 8px 15px #000;
+}

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
+        <title> FCC Tic Tac Toe </title>
+        
         <link rel = "stylesheet" href = "css/index.css" type = "text/css" />
         <link rel = "stylesheet" href = "bower_components/bootstrap/dist/css/bootstrap.min.css" type = "text/css" />
         <link rel = "stylesheet" href = "bower_components/font-awesome/css/font-awesome.min.css" type = "text/css" />
@@ -10,6 +13,48 @@
     </head>
     
     <body>
+        <div class = "spacer1"> <img src="https://4.bp.blogspot.com/-UGd-nOoMK5g/WBd6ICqoumI/AAAAAAAAHXI/_6oeNhPtdHUqi6iUStCLvUvDUGV1S82VQCLcB/s1600/tttmarqlrg.gif" alt = "TicTacToeTitle" width = "60%"></img> 
+        <br>
+        <h1> Free Code Camp </h1>
+        </div>
+        
+        <div class = "spacer"></div>
+        
+        <div class = "gameboard" id = "gameboard">
+            <div class = "row">
+                <div class = "square sq1"></div>
+                <div class = "square sq2"></div>
+                <div class = "square sq3"></div>
+            </div>
+            
+            <div class = "row">
+                <div class = "square sq4"></div>
+                <div class = "square sq5"></div>
+                <div class = "square sq6"></div>
+            </div>
+            
+            <div class = "row">
+                <div class = "square sq7"></div>
+                <div class = "square sq8"></div>
+                <div class = "square sq9"></div>
+            </div>
+            
+        </div>
+        
+        <div class = "spacer"></div>
+        
+        <div class = "col-md-12 text center" id = "reload">
+            <a href = "#" class = "btn btn-primary btn-lg"> Reload Game? </a>
+        </div>
+        
+        <div class = "spacer"></div>
+        
+        <div class = "col-md-12 text-center spacer1" id = "win"> <h2> Player 1 is the Winner! </h2> </div>
+        
+        <div class = "spacer"></div>
+        
+        <div class = "col-md-12 text-center spacer1" id = "lose"> <h2> Computer is the Winner! </h2> </div>
+        
         
     </body>
 </html>
